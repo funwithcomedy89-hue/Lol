@@ -1,0 +1,34 @@
+{
+  "name": "DuoVerse — Zero-Backend Duo Games, Voice & Synced Radio",
+  "short_name": "DuoVerse",
+  "description": "Play 50+ duo & arcade games together with lag-free WebRTC voice chat, live text chat, and synced radio — zero backend required.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#07080f",
+  "theme_color": "#07080f",
+  "categories": ["games", "entertainment", "social", "music"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Duo Room",
+      "short_name": "New Room",
+      "description": "Create a new P2P room instantly",
+      "url": "./index.html?action=create"
+    }
+  ]
+}
